@@ -2,7 +2,7 @@
     "name": "roblib-starter",
     "version": "0.1.0",
     "main": "src/index.js",
-    "author": " kareszklub (https://github.com/kareszklub) (beni69 <beni@karesz.xyz> https://github.com/beni69)",
+    "author": "kareszklub (https://github.com/kareszklub) (beni69 <beni@karesz.xyz> https://github.com/beni69)",
     "license": "MIT",
     "type": "module",
     "engines": {
