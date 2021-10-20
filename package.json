@@ -4,6 +4,7 @@
     "main": "src/index.js",
     "author": " kareszklub (https://github.com/kareszklub) (beni69 <beni@karesz.xyz> https://github.com/beni69)",
     "license": "MIT",
+    "type": "module",
     "engines": {
         "node": ">=14.8"
     },
@@ -11,9 +12,7 @@
         "start": "node ."
     },
     "dependencies": {
-        "@kris030/roblib": "github:Kris030/roblib#beni-refactor"
-    },
-    "devDependencies": {
-        "typescript": "^4.4.4"
+        "@kris030/roblib": "github:kareszklub/roblib-client#main",
+        "socket.io-client": "^4.3.2"
     }
 }

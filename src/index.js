@@ -1,6 +1,11 @@
-import { init, move } from "@kris030/roblib";
+import { init, move, sleep } from '@kris030/roblib';
+import { io } from 'socket.io-client';
 
-await init("<robot ip>"); // change to ip of the robot
+await init(io, '<robot ip>'); // change to ip of the robot
 
 // have fun
 move({ left: 25, right: 25 });
+
+await sleep(1000);
+
+move(); // stop robot
