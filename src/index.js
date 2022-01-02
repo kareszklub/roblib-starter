@@ -1,11 +1,12 @@
-import { init, move, sleep } from '@kareszklub/roblib-client';
-import { io } from 'socket.io-client';
+import { Robot, sleep } from "@kareszklub/roblib-client";
 
-await init(io, '<robot ip>'); // change to ip of the robot
+Robot.connect("ws://127.0.0.1:8080/ws").then(async robot => {
+    // have fun
+    await robot.move(25, 25);
 
-// have fun
-move({ left: 25, right: 25 });
+    await sleep(1000);
 
-await sleep(1000);
+    await robot.stop();
 
-move(); // stop robot
+    robot.disconnect();
+});
