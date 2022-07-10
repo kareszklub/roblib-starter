@@ -1,6 +1,8 @@
 import { Robot, sleep } from "@kareszklub/roblib-client";
 
-Robot.connect("ws://127.0.0.1:8080/ws").then(async robot => {
+async function main() {
+    const robot = await Robot.connect("ws://127.0.0.1:1111/ws");
+
     // have fun
     await robot.move(25, 25);
 
@@ -9,4 +11,5 @@ Robot.connect("ws://127.0.0.1:8080/ws").then(async robot => {
     await robot.stop();
 
     robot.disconnect();
-});
+}
+main();
