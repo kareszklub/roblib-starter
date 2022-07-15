@@ -9,10 +9,6 @@
         "start": "node ."
     },
     "dependencies": {
-        "@kareszklub/roblib-client": "github:kareszklub/roblib-client#v2"
-    },
-    "devDependencies": {
-        "@types/node": "^17.0.6",
-        "typescript": "^4.5.4"
+        "@kareszklub/roblib-client": "2.0.0-alpha.4"
     }
 }
