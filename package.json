@@ -9,6 +9,6 @@
         "start": "node ."
     },
     "dependencies": {
-        "@kareszklub/roblib-client": "2.0.0-alpha.4"
+        "@kareszklub/roblib-client": "2.0.0-beta.1"
     }
 }
