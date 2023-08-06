@@ -1,0 +1,74 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@kareszklub/roblib-client-node':
+    specifier: ^0.0.1
+    version: 0.0.1
+
+packages:
+
+  /@kareszklub/roblib-client-node-darwin-x64@0.0.1:
+    resolution: {integrity: sha512-vdnjaOkqt1ytf03eMbeH6K1com3I+icEpBLehA9iRVnjQg4lKPMrf5kcGrtKt4vCs/mP2jm2T+SpO0c4mJPjZw==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@kareszklub/roblib-client-node-linux-arm-gnueabihf@0.0.1:
+    resolution: {integrity: sha512-Caulo9ycAY9zXxmEqh05xUnzzH67hHTHBQuDT+onslnM2nhZ1Go5COmnOknwLg5FjoAnHC25u0gVJhZzTGT45g==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@kareszklub/roblib-client-node-linux-arm64-gnu@0.0.1:
+    resolution: {integrity: sha512-NOgtBSSrgpehMgs2ALHyOZsVDbfUjIZSSO6EC4ZxaSRDtYNFwR6Mp8KOXI45buQfRNsO9PmPDk4jkIBpv3nF8w==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@kareszklub/roblib-client-node-linux-x64-gnu@0.0.1:
+    resolution: {integrity: sha512-dfUOYAQ5fMD1NKJY/s82DgJWulxidjh2AcgPmDrhVnqQq9ULTIXGxVyUqdQRnSBalvP9LJGHhLKH774dU8eiOA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@kareszklub/roblib-client-node-linux-x64-musl@0.0.1:
+    resolution: {integrity: sha512-+2gFr9F2SIHHQIWq7jDiMAQyQfLQ1wmgM0F6T8xM347vvzWAWY2bBklSqTDapS++7B4t1bgQ+hV4KxA9hXp6EA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@kareszklub/roblib-client-node-win32-x64-msvc@0.0.1:
+    resolution: {integrity: sha512-KhUUE236y8Avl9aQtRp7jukTtLT4JabT24GuXECo/H5iDbOgqW504eLy2pmftFq+r5j7WbUaG1s3EHmSPMS6Cg==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@kareszklub/roblib-client-node@0.0.1:
+    resolution: {integrity: sha512-GlbxVNVy7F9OpNt0fWzZndwbWyOG6XNioVWf//AfUPvq0EqbwH5qN3RCR0C4c2zsmaCxZXbKLAWbtX/rvSIRYw==}
+    engines: {node: '>= 10'}
+    optionalDependencies:
+      '@kareszklub/roblib-client-node-darwin-x64': 0.0.1
+      '@kareszklub/roblib-client-node-linux-arm-gnueabihf': 0.0.1
+      '@kareszklub/roblib-client-node-linux-arm64-gnu': 0.0.1
+      '@kareszklub/roblib-client-node-linux-x64-gnu': 0.0.1
+      '@kareszklub/roblib-client-node-linux-x64-musl': 0.0.1
+      '@kareszklub/roblib-client-node-win32-x64-msvc': 0.0.1
+    dev: false
